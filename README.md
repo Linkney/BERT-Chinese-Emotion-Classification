@@ -1,4 +1,4 @@
-# BERT-Chinese-Emotion-Classification
+# BERT-Chinese-Emotion-Classification_Pytorch 
 use Pre-train BERT model from hugging face's transformers to Classfication Pos-Neg comments
 
 Requirements:
@@ -7,6 +7,6 @@ Requirements:
   - pytorch_transformers
   
 
-run train.py
+**run train.py** 
 
-第一次运行过程中需要梯子来下载tokenizer
+*第一次运行过程中需要连接梯子来下载tokenizer*
