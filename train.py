@@ -190,11 +190,11 @@ def showTraning_stats(training_stats):
 
 
 if __name__ == '__main__':
-    # training_stats = train(train_loader)
-    # print(time.ctime())
+    training_stats = train(train_loader)
+    print(time.ctime())
     # showTraning_stats(training_stats)
     # print(time.ctime())
-    # eval(eval_loader)       # 正确分类的样本数：473，样本总数：500，准确率：94.60%
+    eval(eval_loader)       # 正确分类的样本数：473，样本总数：500，准确率：94.60%
     print(time.ctime())
     mineSentence()
     print(time.ctime())
